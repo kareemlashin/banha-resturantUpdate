@@ -1500,8 +1500,8 @@ body {
 
 .close-notification {
      background-color: rgb(226, 226, 226);
-     padding: 8px;
-     font-size: 12px;
+     padding: 5px;
+    font-size: 10px;
      border-radius: 50%;
      -webkit-border-radius: 50%;
      -moz-border-radius: 50%;
@@ -1571,8 +1571,8 @@ body {
 .close-mop,
 .close-restaurant-details {
      background-color: rgb(226, 226, 226);
-     padding: 8px;
-     font-size: 12px;
+     padding: 5px;
+     font-size: 10px;
      border-radius: 50%;
      -webkit-border-radius: 50%;
      -moz-border-radius: 50%;
@@ -2542,4 +2542,24 @@ select {
       height: 30%;
       width:80%;
  }  
+ }
+ .col-md-4{
+      .feature
+      {
+           img{
+               border-radius: 10px;
+               box-shadow: 0px 1px 3px 0px #888;
+               width: 60px;
+               height: 60px;
+               padding: 5px;
+               background-color: #fff;
+               box-shadow: 0px 1px 3px 0px #888;
+               object-fit: cover;
+               object-position: center center !important;
+               -webkit-border-radius: 10px;
+               -moz-border-radius: 10px;
+               -ms-border-radius: 10px;
+               -o-border-radius: 10px;
+}
+      }
  }
